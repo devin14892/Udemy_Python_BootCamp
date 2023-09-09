@@ -2,13 +2,15 @@
 
 
 def aninmal_crackers(text):
-    split = text.split()
+    split = text.lower().split()
     if split[0][0] == split[1][0]:
         print('TRUE',split[0][0], split[1][0])
     else:
         print('FALSE',split[0][0], split[1][0])
 
-    pass
+
+
+
 
 aninmal_crackers('LevelHeaded Llama')
 aninmal_crackers('Crazy Kangaroo')

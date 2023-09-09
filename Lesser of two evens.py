@@ -14,4 +14,11 @@ def lesser_of_two_events(set):
                print(y,' larger')
 
 
+def lesser_of_two(a,b):
+    if a%2 == 0 and b%2 == 0:
+        return min(a,b)
+    else:
+        return max(a,b)
+
+
 lesser_of_two_events(group)
