@@ -10,6 +10,7 @@ def spy_game(numbers):
     awn = [0,0,7]
     for i in numberslist:
         if i in [0, 7]:
+        # also works --> if i == 0 or i == 7:
             key.append(i)
     
     if key == awn:
